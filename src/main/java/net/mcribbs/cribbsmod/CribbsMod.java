@@ -1,6 +1,7 @@
 package net.mcribbs.cribbsmod;
 
 import com.mojang.logging.LogUtils;
+import net.mcribbs.cribbsmod.block.ModBlocks;
 import net.mcribbs.cribbsmod.item.ModCreativeModeTabs;
 import net.mcribbs.cribbsmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -10,6 +11,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -27,6 +29,7 @@ public class CribbsMod {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(this::addCreative);

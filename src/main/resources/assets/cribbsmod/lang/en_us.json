@@ -2,5 +2,8 @@
   "item.cribbsmod.sapphire": "Sapphire",
   "item.cribbsmod.raw_sapphire": "Raw Sapphire",
 
+  "block.cribbsmod.sapphire_block": "Block of Sapphire",
+  "block.cribbsmod.raw_sapphire_block": "Block of Raw Sapphire",
+
   "creativetab.cribbsmod_tab": "Cribbsmod"
 }
