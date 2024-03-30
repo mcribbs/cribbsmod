@@ -1,6 +1,10 @@
 {
   "values": [
     "cribbsmod:sapphire_block",
-    "cribbsmod:raw_sapphire_block"
+    "cribbsmod:raw_sapphire_block",
+    "cribbsmod:sapphire_ore",
+    "cribbsmod:deepslate_sapphire_ore",
+    "cribbsmod:nether_sapphire_ore",
+    "cribbsmod:end_stone_sapphire_ore"
   ]
 }

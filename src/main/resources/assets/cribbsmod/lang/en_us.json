@@ -5,5 +5,10 @@
   "block.cribbsmod.sapphire_block": "Block of Sapphire",
   "block.cribbsmod.raw_sapphire_block": "Block of Raw Sapphire",
 
+  "block.cribbsmod.sapphire_ore": "Sapphire Ore",
+  "block.cribbsmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.cribbsmod.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.cribbsmod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+
   "creativetab.cribbsmod_tab": "Cribbsmod"
 }

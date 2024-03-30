@@ -1,5 +1,7 @@
 {
   "values": [
-    "cribbsmod:sapphire_block"
+    "cribbsmod:sapphire_block",
+    "cribbsmod:sapphire_ore",
+    "cribbsmod:nether_sapphire_ore"
   ]
 }
